@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+//import Navbar from './Components/Navbar';
+import TextForm from './Components/TextForm';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+function App(){
+  //const [Mode,setMode] = useState("dark");
+  // let toggleMode=()=>{
+  //   if(Mode === "light")
+  //   {
+  //     setMode("dark");
+  //     document.style.backgroundColor="light";
+  //   }
+  //   else
+  //     setMode("light");
+  //     document.style.backgroundColor="dakr";
+  // }
+  return(
+    <div>
+      {/* <Navbar heading="subbu" mode={Mode} toggleMode={toggleMode}/>
+      <TextForm /> */}
+      {/* <Navbar heading="subbu" mode={Mode} toggleMode={toggleMode}></Navbar> */}
+      <TextForm></TextForm>
+      
     </div>
   );
+
 }
 
 export default App;
