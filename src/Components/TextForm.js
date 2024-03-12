@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 
-export default function (props) {
+export default function TextForm (props) {
 
   const [text,setText]=useState("Enter data");
   const handleOnChange=(event)=>{
